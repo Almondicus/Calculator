@@ -15,9 +15,12 @@ public class Calculator{
 		
 		int result = 0;
 		
-		
 		if(operator.equals("+")){
-			result = zahl1 + zahl1;			
+			result = zahl1 + zahl1;
+		}		
+
+		else if(operator.equals("-")){
+			result = zahl1 - zahl2;
 		}
 		
 		System.out.println(zahl1 + " " + operator + " " + zahl2 + " = " + result);
